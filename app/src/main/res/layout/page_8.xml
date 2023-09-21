@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/contentContainer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/customNavbar">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="20dp"
+        android:text="Chat"
+        android:textColor="#3F4144"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+
+        />
+
+    <View
+        android:layout_height="2dp"
+        android:layout_width="match_parent"
+        android:background="#EDEDED"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/picture_1"
+            android:padding="10dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:text="Makenna Dias"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="#475467"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 new message"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textColor="#EF8305"/>
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@mipmap/right_arrow"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="80dp"
+            style="?android:attr/borderlessButtonStyle"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_height="2dp"
+        android:layout_width="match_parent"
+        android:background="#EDEDED"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/picture_2"
+            android:padding="10dp"/>
+
+        <LinearLayout
+            android:layout_width="185dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Miracle philips"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="#475467"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No new message"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textColor="#99A3B3"/>
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@mipmap/right_arrow"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="80dp"
+            style="?android:attr/borderlessButtonStyle"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_height="2dp"
+        android:layout_width="match_parent"
+        android:background="#EDEDED"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/picture_3"
+            android:padding="10dp"/>
+
+        <LinearLayout
+            android:layout_width="185dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zaire Gouse"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="#475467"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 new message"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textColor="#99A3B3"/>
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@mipmap/right_arrow"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="80dp"
+            style="?android:attr/borderlessButtonStyle"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/customNavbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:elevation="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            >
+
+            <androidx.constraintlayout.utils.widget.ImageFilterButton
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/home_icon"
+                android:tag="home"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            >
+            <androidx.constraintlayout.utils.widget.ImageFilterButton
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/search_icon"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search"
+                android:textSize="20dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            >
+
+            <androidx.constraintlayout.utils.widget.ImageFilterButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@mipmap/add_icon"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"/>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            >
+
+            <androidx.constraintlayout.utils.widget.ImageFilterButton
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/chat_icon"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chat"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            >
+            <androidx.constraintlayout.utils.widget.ImageFilterButton
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/profile_icon"
+                android:layout_weight="1"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/round_arrow_back_24"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="Report"
+            android:textColor="#3F4144"
+            android:textSize="25dp"
+            android:textStyle="bold"
+
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#EDEDED"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Reason for Reporting"
+        android:textColor="#3F4144"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/text_view_shape"
+        android:hint="Enter reason here"
+        android:gravity="top"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:textColorHint="#56595D"
+        android:layout_marginBottom="10dp"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/button_shape"
+        android:layout_marginTop="100dp"
+        android:text="Submit Report"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        />
+
+</LinearLayout>
+
+</LinearLayout>
